@@ -4,9 +4,9 @@ h0{
 	font-size: 40px;
 }
 p.name{
-	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	width: 6em;
 }
 img.profile{
 	display: block;
