@@ -7,3 +7,10 @@ h0{
 	border-color: indigo;
 	background-color: #e3edcb
 }
+
+img.profile{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
