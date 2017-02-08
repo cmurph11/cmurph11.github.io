@@ -1,25 +1,47 @@
-h0{
-	text-align: center;
-	font-family: sans-serif;
-	font-size: 40px;
+.profile{
+	margin: auto;
+	width: 30%;
+
 }
-p{
-	text-align: center;
+.image{
+	position: relative;
+	margin: auto;
+	width:100%;
 }
-p.name{
+/*h0{
+	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	width: 20em;
-	border-width: 1px;
-	border-style: solid;
 	position: absolute;
-	
+	width: 6em;
+	top:6em;
+	background-color: white;
+	font-size: 20px;
+}*/
+p.name{
+	text-align: center;
+	margin-left: 150px;
+	position: absolute;
+	width: 6em;
+	top:22em;
+	background-color: white;
+	font-size: 20px;
 }
-img.profile{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	position:relative;
-
+p.bio{
+	text-align: center;
+	margin-left: 300px;
+	position: absolute;
+	width: 2em;
+	top:25em;
+	background-color: white;
+	font-size: 20px;
 }
-
+p.resume{
+	text-align: center;
+	margin-left: 100px;
+	position: absolute;
+	width: 3em;
+	top:25em;
+	background-color: white;
+	font-size: 20px;
+}
