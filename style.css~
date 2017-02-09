@@ -1,3 +1,10 @@
+h0{
+	margin-left: 30px;
+	font-family: sans-serif;
+	font-style: italic;
+	border-bottom: solid;
+	
+}
 h1{
 	font-style: italic;
 	font-family: serif;
@@ -22,7 +29,7 @@ h3{
 h5{
 	margin:0px;
 }
-.description{
+h6{
 	text-indent:40px;
 	font-family: sans-serif;
 	font-size:10px;
