@@ -1,0 +1,14 @@
+h1{
+	text-size:40px;
+	text-align:anchor;
+	font-style: italic;
+	font-family: serif;
+}
+h4{
+	text-align: left;
+	margin-left: 40px;
+	font-family: sans-serif;
+	font-weight: lighter;
+	font-size: 20px;
+	width: 30em;
+}
