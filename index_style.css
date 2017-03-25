@@ -36,3 +36,11 @@ p.resume{
 	background-color: white;
 	font-size: 20px;
 }
+p.portfolio{
+	text-align: center;
+	margin-left: 75px;
+	position: absolute;
+	width: 3em;
+	top:15em;
+	background-color: white;
+	font-size: 20px;
