@@ -25,7 +25,7 @@
 a:link    {
   /* Applies to all unvisited links */
   text-decoration:  none;
-  color:            black;
+  color:           #e5b3cc;
   } 
 a:visited {
   /* Applies to all visited links */
