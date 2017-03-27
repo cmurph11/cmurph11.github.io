@@ -25,23 +25,21 @@
 a:link    {
   /* Applies to all unvisited links */
   text-decoration:  none;
-  color:           #e5b3cc;
+  color:           #ce426d;
   } 
 a:visited {
   /* Applies to all visited links */
   text-decoration:  none;
   background-color: #ddd;
-  color:#e5b3cc;
+  color:#ce426d;
   } 
 p.resume:hover {
   font-weight:      bold;
   background-color: #71b1d6;
-  color:            #e5b3cc;
  }
  p.portfolio:hover {
   font-weight:      bold;
-  background-color: yellow;
-  color:            black;
+  background-color: #eaca6a;
  }
 
 a:active  {
