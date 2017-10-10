@@ -1,1 +1,0 @@
-The purpose of this exercise is to generate a resume and bio for personal and potentially professional use with CSS and HTML. 

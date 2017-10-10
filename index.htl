@@ -1,0 +1,28 @@
+ <!DOCTYPE html>
+
+<head>
+	<title>Colin</title>
+	<link rel="stylesheet" href="index_style.css"/>
+</head>
+
+<body> 
+	<div class="all">
+		<div class="gifs"><img src="cv.gif" alt="cv"></div>
+		<div class="face"><img src="portrait2.jpg" alt="Colin Murphy" style="width:100px"></div>
+		<div class="gifs"><img src="portfolio.gif" alt="portfolio" id="imgclickandchange" onclick="changeImage()">
+		</div>
+	</div>
+
+<script type="text/javascript">
+	function changeImage() {
+		if (document.getElementById("imgclickandchange").src == "portfolio.gif")
+		{
+			document.getElementById("portfolioimg").src == "portrait.gif";
+		}
+		else
+		{
+			document.getElementById("portfolioimg").src == "portfolio.gif";
+		}
+	}
+</script>
+</body>

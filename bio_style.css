@@ -1,14 +1,14 @@
-h1{
-	font-size:40px;
-	text-align: left;
-	font-style: italic;
-	font-family: serif;
+body{
+	width:33%;
+	height:33%;
+	margin-top:15%;
+	margin-left:30%;
 }
-h4{
-	text-align: left;
-	margin-left: 40px;
-	font-family: sans-serif;
-	font-weight: lighter;
-	font-size: 20px;
-	width: 30em;
+
+.home{
+	height:75px;
+	position: fixed;
+  	left: 15%;
+  	top: 42%;
+  	transform: translate(-50%, -25%);
 }

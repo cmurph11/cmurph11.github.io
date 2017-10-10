@@ -1,17 +1,39 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 
 <head>
 	<title>Colin</title>
 	<link rel="stylesheet" href="index_style.css"/>
+	<script>
+	function changeImage() {
+		if (document.getElementById("imgclickandchange").src == "portfolio.gif")
+		{
+			document.getElementById("imgclickandchange").style = "display:none";
+		}
+		else
+		{
+			document.getElementById("imgclickandchange").style = "display:none";
+			document.getElementById("menu").style = "display:table";
+		}
+	}
+	</script>
+
 </head>
 
-<body>
-	<div class="profile">
-		<div class="content">
-			<div class="text">
-				<p class="resume"><a href="https://www.cmurph11.github.io/attempt.html" target = "_blank">resume</a></p>
-				<p class="portfolio"><a href="https://www.colinpmurphy.com" target="_blank">portfolio</a></p>
-			</div>
+<body> 
+	<div class="all">
+		<div class="gifs">
+			<a href="../test/resume.html"><img src="../test/gifs/cv.gif" alt="cv"></a>
 		</div>
+		<div class="face">
+			<a href="../test/bio.html"><img src="face2.jpg" alt="Colin Murphy" style="width:100px"></a>
+		</div>
+		<div class="gifs">
+			<img src="../test/gifs/portfolio.gif" alt="portfolio" id="imgclickandchange" onclick="changeImage()">
+		</div>
+	</div>
+	<div id="menu" style="display:none;">
+				<a href = ../test/portraits.html title="portraits"><img src= "../test/gifs/portrait.gif" alt="portraits" style="width:75px"></a>
+				<a href = "../test/georgia.html" alt="georgia" title="georgia" ><img src="../test/gifs/georgia.gif" alt="georgia" style="width:75px"></a>
+				<a href = "../test/travel.html" alt="travel" title="travel" ><img src="../test/gifs/travel.gif" alt="travel" style="width:75px"></a>
 	</div>
 </body>

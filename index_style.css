@@ -1,78 +1,37 @@
-.profile{
-	width: 30%;
-	margin: auto;
-	text-align: 
+.all{
+    text-align:center;
+   	display: inline-block;
+    position: absolute;
+  	left: 50%;
+  	top: 50%;
+  	transform: translate(-50%, -50%);
+  	width:200px;
+  	height:335px;
 }
-.content{
-	position: absolute;
-	width: 400px;
-	height: 500px;
-	margin: auto;
-	top: 50%;
-	left: 50%;
-	margin-top: -250px;
-	margin-left: -200px;
-	background-color: yellow;
-	background-size: 100% 100%;
-	background-image: url('helloinfinite.gif');
-}
-.text{
-	position: relative;
-	width: 100%;
-	height: 100%;
-	top:10px;
-}
-a:link    {
-  /* Applies to all unvisited links */
-  text-decoration:  none;
-  color:           #ce426d;
-  } 
-a:visited {
-  /* Applies to all visited links */
-  text-decoration:  none;
-  background-color: #ddd;
-  color:#ce426d;
-  } 
-p.resume:hover {
-  font-weight:      bold;
-  background-color: #71b1d6;
- }
- p.portfolio:hover {
-  font-weight:      bold;
-  background-color: #eaca6a;
- }
 
-a:active  {
-  /* Applies to activated links */
-  text-decoration:  underline;
-  font-weight:      lighter;
-  background-color: black;
-  color: white;
-  } 
-p.name{
-	text-align: center;
-	margin-left: 350px;
-	position: absolute;
-	width: 6em;
-	top:10em;
-	font-size: 20px;
-	color:white;
+img {
+	max-height: 100%;
+    max-width: 100px;
 }
-p.resume{
-	text-align: center;
-	position: absolute;
-	width: 3.5em;
-	margin-left: 340px;
-	top:12em;
-	background-color: white;
-	font-size: 20px;
+
+.face{
+	
+	height: 135px;
 }
-p.portfolio{
-	text-align: center;
-	position: absolute;
-	width: 4em;
-	margin-left: 330px;
-	top:14em;
-	background-color: white;
-	font-size: 20px;
+
+.gifs{
+	width: 200px;
+	position: relative;
+	margin: 0 auto 0 auto;
+}
+
+#menu{
+
+	margin: 0 auto 0 auto;
+	padding:12.5px;
+ 	position: absolute;
+  	left: 50%;
+  	top: 67.5%;
+  	transform: translate(-50%, -50%);*/
+  	
 }
