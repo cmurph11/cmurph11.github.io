@@ -36,7 +36,7 @@
         {
             document.getElementById("imgclickandchange").style = "display:none";
             document.getElementById("menu").style = "display:inline-block";
-            document.getElementById("home").style = "display:inline; width:25px";
+            document.getElementById("home").style = "display:inline-block";
         }
 };
 	</script>
@@ -47,16 +47,16 @@
 	   <img src="../test/portraits/portrait1.png" id="slide" onclick="changeImage()" class="image">
     </div>
     <div class="nav">
-        <img src="../test/gifs/navleft.gif" alt="previous" onclick="prevImage()" style="width:25px">
-        <img src="../test/gifs/navdot.gif" alt="menu" id="imgclickandchange" onclick="displayMenu()" style="width:25px">
+        <img src="../test/gifs/navleft.gif" alt="previous" onclick="prevImage()">
+        <img src="../test/gifs/navdot.gif" alt="menu" id="imgclickandchange" onclick="displayMenu()">
         <div id="menu" style="display:none;">
-                <a href = ../test/portraits.html title="portraits"><img src= "../test/gifs/portrait.gif" alt="portraits" style="width:25px"></a>
-                <a href = "../test/georgia.html" alt="georgia" title="georgia" ><img src="../test/gifs/georgia.gif" alt="georgia" style="width:25px"></a>
-                <a href = "../test/travel.html" alt="travel" title="travel" ><img src="../test/gifs/travel.gif" alt="travel" style="width:25px"></a>
+                <a href = ../test/portraits.html title="portraits"><img src= "../test/gifs/portrait.gif" alt="portraits"></a>
+                <a href = "../test/georgia.html" alt="georgia" title="georgia" ><img src="../test/gifs/georgia.gif" alt="georgia"></a>
+                <a href = "../test/travel.html" alt="travel" title="travel" ><img src="../test/gifs/travel.gif" alt="travel"></a>
         </div>
-        <img src="../test/gifs/navright.gif" alt="next" onclick="nextImage()" style="width:25px">
-    </div>
-    <div class="home">
-        <a href="../test/index.html"><img src="../test/gifs/home.gif" id="home" style="display:none"></a>
+        <img src="../test/gifs/navright.gif" alt="next" onclick="nextImage()">
+        <div class="home">
+            <a href="../test/index.html"><img src="../test/gifs/home.gif" id="home" style="display:none"></a>
+        </div>
     </div>
 </body>

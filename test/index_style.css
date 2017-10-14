@@ -1,37 +1,42 @@
-.all{
-    text-align:center;
-   	display: inline-block;
-    position: absolute;
-  	left: 50%;
-  	top: 50%;
-  	transform: translate(-50%, -50%);
-  	width:200px;
-  	height:335px;
-}
+.all-container{
 
+	//background-color:blue;
+
+
+}
+.container{
+     margin: auto;
+     padding: 22vh 0 25vh 0;
+    
+    
+}
 img {
 	max-height: 100%;
-    max-width: 100px;
+  max-width: 100%;
+}
+.cv{
+  width:100px;
+  margin: 0 auto 0 auto;
 }
 
 .face{
-	
+	width:100px;
 	height: 135px;
+  margin: 0 auto 0 auto;
 }
 
-.gifs{
-	width: 200px;
+.portfolio{
+	width: 100px;
 	position: relative;
 	margin: 0 auto 0 auto;
 }
 
-#menu{
-
+.menu{
 	margin: 0 auto 0 auto;
 	padding:12.5px;
- 	position: absolute;
-  	left: 50%;
-  	top: 67.5%;
-  	transform: translate(-50%, -50%);*/
-  	
+ 	position: relative;
+}
+
+.menu img{
+  width:75px;
 }
