@@ -12,7 +12,7 @@
 	function nextImage(){
 
     if(counter < 9){
-        document.getElementById("slide").src = "../georgia/"+filename.concat(counter+1,filetype);
+        document.getElementById("slide").src = "./georgia/"+filename.concat(counter+1,filetype);
         counter++;
     }
     else if(counter == 9){
@@ -21,7 +21,7 @@
 };
     function prevImage(){
         if(counter > 0){
-        document.getElementById("slide").src = "../georgia/"+filename.concat(counter+1,filetype);
+        document.getElementById("slide").src = "./georgia/"+filename.concat(counter+1,filetype);
         counter--;
         console.log(filename.concat(counter+1,filetype));
     }
@@ -37,32 +37,39 @@
         else
         {
             document.getElementById("imgclickandchange").style = "display:none";
-            document.getElementById("menu").style = "display:inline-block";
-            document.getElementById("home").style = "display:inline; width:25px";
+            document.getElementById("menu").style = "display:flex; width = 400px; background-color='blue'";
+            console.log(menu.style);
+            document.getElementById("home").style = "display:flex; position: relative; width:25px";
         }
 };
 	</script>
 </head>
 
 <body>
-    <div class = imgcontainer>
-        <div class="gallery">
+    <div class="gallery">
     	   <img src="./georgia/georgia1.jpg" id="slide" class="image">
-        </div>
+           <div class=nav>
+            <img src="./gifs/navleft.gif" alt="previous" onclick="prevImage()" style="width:25px">
+            <img src="./gifs/navdot.gif" alt="menu" id="imgclickandchange" onclick="displayMenu()" style="width:25px">
+            <div id="menu" style="display:none;">
+                    <a href = ./portraits.html title="portraits"><img src= "./gifs/portrait.gif" alt="portraits" style="width:25px"></a>
+                    <a href = "./georgia.html" alt="georgia" title="georgia" ><img src="./gifs/georgia.gif" alt="georgia" style="width:25px"></a>
+                    <a href = "./travel.html" alt="travel" title="travel" ><img src="./gifs/travel.gif" alt="travel" style="width:25px"></a>
+            </div>
     </div>
     <div class=allnav>
         <div class=nav>
-            <img src="../gifs/navleft.gif" alt="previous" onclick="prevImage()" style="width:25px">
-            <img src="../gifs/navdot.gif" alt="menu" id="imgclickandchange" onclick="displayMenu()" style="width:25px">
+            <img src="./gifs/navleft.gif" alt="previous" onclick="prevImage()" style="width:25px">
+            <img src="./gifs/navdot.gif" alt="menu" id="imgclickandchange" onclick="displayMenu()" style="width:25px">
             <div id="menu" style="display:none;">
-                    <a href = ../portraits.html title="portraits"><img src= "../gifs/portrait.gif" alt="portraits" style="width:25px"></a>
-                    <a href = "../georgia.html" alt="georgia" title="georgia" ><img src="../gifs/georgia.gif" alt="georgia" style="width:25px"></a>
-                    <a href = "../travel.html" alt="travel" title="travel" ><img src="../gifs/travel.gif" alt="travel" style="width:25px"></a>
+                    <a href = ./portraits.html title="portraits"><img src= "./gifs/portrait.gif" alt="portraits" style="width:25px"></a>
+                    <a href = "./georgia.html" alt="georgia" title="georgia" ><img src="./gifs/georgia.gif" alt="georgia" style="width:25px"></a>
+                    <a href = "./travel.html" alt="travel" title="travel" ><img src="./gifs/travel.gif" alt="travel" style="width:25px"></a>
             </div>
-            <img src="../gifs/navright.gif" alt="next" onclick="nextImage()" style="width:25px">
+            <img src="./gifs/navright.gif" alt="next" onclick="nextImage()" style="width:25px">
     </div>
     <div class="home">
-        <a href="../index.html"><img src="../gifs/home.gif" id="home" style="display:none"></a>
+        <a href="./index.html"><img src="./gifs/home.gif" id="home" style="display:none"></a>
     </div>
 </div>
 </body>
