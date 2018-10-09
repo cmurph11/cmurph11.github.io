@@ -36,7 +36,7 @@
 		<div class="menu" id="menu" style="display:none;">
 					<a href = https://www.colinpmurphy.com target = "_blank" alt="photography" title="photography" ><img src="./squarespace.png" alt="camera icon"></a>
 					<a href = https://www.behance.net/colinpmurphy target ="_blank" title="behance"><img src= "./behance.png" alt="behance icon"></a>
-					<a href = https://www.github.com/cmurph11 target = "_blank" alt="GitHub" title="GitHub" ><img src="./GitHub-Mark.png" alt="travel"></a>
+					<a href = "https://www.github.com/cmurph11" alt="travel" title="travel" ><img src="./GitHub-Mark.png" alt="travel"></a>
 		</div>
 	</div>
 </div>
